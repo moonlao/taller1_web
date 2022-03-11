@@ -1,0 +1,442 @@
+html,
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.menu__item {
+  margin: 0 10px;
+  position: relative;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.menu__cart {
+  position: fixed;
+  right: 15px;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 177px;
+  align-items: center;
+}
+
+.logo__footer {
+  background-color: black;
+  margin-top: 0%;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  margin: 0 20px;
+}
+
+.menu__item a {
+  color: black;
+  font-size: 1.3em;
+  line-height: 33px;
+}
+
+.banner {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner2 {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner3 {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__container {
+  margin-top: 8%;
+  margin-right: 15%;
+}
+
+.banner__img {
+  width: 100%;
+}
+
+.banner__title {
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: "Dancing Script", cursive;
+  font-size: 6.25em;
+}
+
+.banner__text {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 2%;
+  font-weight: lighter;
+}
+
+.banner__description {
+  font-size: 2em;
+  color: #ffa3b9;
+  text-align: center;
+}
+
+.banner__container2 {
+  margin-top: 8%;
+  margin-right: 15%;
+}
+
+.banner__container2 {
+  margin-top: 10%;
+  margin-right: 15%;
+}
+
+.banner__container3 {
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+.shop {
+  padding: 20px 50px;
+}
+
+.shop__title {
+  margin-top: 6%;
+  font-size: 3.5em;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: black;
+}
+
+.review__title {
+  margin-top: 2%;
+}
+
+.bestsellers {
+  display: flex;
+  width: 100%;
+  justify-content: row;
+  z-index: 2;
+}
+
+.bestseller {
+  /* i want the images smaller */
+  width: 30%;
+  margin: 2%;
+}
+
+.bestseller__img {
+  width: 400px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.review:hover {
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__caption {
+  background-color: white;
+  margin-top: 0%;
+  padding: 20px;
+}
+
+.review__description {
+  color: #161616;
+}
+
+.review__img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rating__img {
+  width: 35%;
+}
+
+.info {
+  flex-direction: row;
+}
+
+.info__title {
+  font-weight: normal;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  font-size: 3.5em;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: black;
+}
+
+.owner__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.owner__text {
+  margin-right: 40%;
+  color: #000000;
+}
+
+.owner__img {
+  margin: 1%;
+  width: 30%;
+}
+
+.location__icon {
+  margin-left: 54%;
+  margin-bottom: 5%;
+  width: 8%;
+}
+
+.right__icon {
+  margin-left: 85%;
+}
+
+.location {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.location__item {
+  background-color: rgba(242, 237, 240, 1);
+  width: 100%;
+}
+
+.abus__statement {
+  margin-top: 8%;
+  margin-left: 15%;
+  width: 30%;
+}
+
+.logo2__img {
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.abus__item {
+  display: flex;
+  width: 130%;
+}
+
+.abus__info__description {
+  font-weight: lighter;
+  font-size: 1.5em;
+  text-align: center;
+}
+.new__arrivals {
+  width: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.arrivals {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3px 5% 3px 5%;
+}
+
+.inputs {
+  margin-left: 0%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  margin-left: 5%;
+}
+
+.name {
+  margin-bottom: 5%;
+  width: 315px;
+  height: 30px;
+  background: #f2edf0;
+
+  border: none;
+}
+
+.email {
+  margin-bottom: 1%;
+  margin-top: 5%;
+  width: 326px;
+  height: 30px;
+  background: #000000;
+  padding-left: 8px;
+  border: white;
+  border-width: 20px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  color: white;
+}
+
+.phone {
+  margin-bottom: 5%;
+  width: 311px;
+  height: 30px;
+  background: #f2edf0;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn {
+  margin-top: 0%;
+  align-items: center;
+  margin-bottom: 5%;
+  width: 10%;
+  height: 30px;
+
+  background-color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.subscribe__item {
+  flex-direction: column;
+  background-color: black;
+}
+
+.subscribe__title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.foot {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+
+.socials__img {
+  margin: 5%;
+  width: 20%;
+}
+
+.socials__img__t {
+  margin: 5%;
+  width: 10%;
+}
+.hyperlink {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 15%;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-left: auto;
+}
+
+.hyperlink li {
+  display: inline;
+}
+
+.hyperlink li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.footer__menu:hover {
+  text-decoration: underline;
+}
+
+.menuagain {
+  color: white;
+}
+
+.info {
+  margin-top: 0%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  color: white;
+}
+.footer__title {
+  font-size: 1.2em;
+  margin-bottom: 5%;
+  color: #999;
+}
+.contact {
+  font-size: 1.2em;
+  margin-bottom: 2%;
+  color: #999;
+}
+.phones {
+  font-weight: normal;
+  color: #999;
+}
+
+.emails {
+  font-weight: normal;
+  color: #999;
+}
